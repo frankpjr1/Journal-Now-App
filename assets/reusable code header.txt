@@ -1,0 +1,6 @@
+change width on image tag for all pages.
+
+class="w-1/2 md:w-1/4"
+-----------------------------------------------------
+change hero section margin all pages
+class="mt-8 mb-8 md:mb-6"
