@@ -5,8 +5,67 @@
     <title>Journal Now</title>
     <link rel="stylesheet" href="css/tailwind.css">
 </head>
-<body>
+<body class="bg-f_brown-medium">
 <!--head section-->
-<h1>hello</h1>
+
+
+<div id="container" class="container mx-auto my-8 space-y-6">
+
+    <div class="flex flex-col items-center">
+        <img src="images/journalNowLogo-1%20-%20Copy.png" alt="Journal Now Logo" class="w-40" >
+        <p class="text-4xl text-f_blue-light font-bold text-center">Let's Journal <span>Today ?</span></p>
+    </div>
+    <!--login-->
+
+    <div class="flex justify-center">
+        <form action="" id="jn-form" class=" w-3/4 md:w-1/3 p-4 bg-f_blue-dark rounded-md">
+            <div id="formField-container" class="flex flex-col">
+                <label for="email" class="mb-4">
+                    <input type="text" id="email" name="email" placeholder="enter your email"
+                           class="w-full px-4 py-2 rounded-md outline-none hover:bg-f_blue-light
+                           placeholder-f_brown-medium cursor-pointer">
+                </label>
+
+                <label for="password" class="mb-4">
+                    <input type="password" id="password" name="password" placeholder="enter your password"
+                           class="w-full px-4 py-2 rounded-md outline-none hover:bg-f_blue-light
+                           placeholder-f_brown-medium cursor-pointer">
+                </label>
+
+                <label for="submit">
+                    <input type="submit" id="submit" value="login" class="w-full px-4 py-2 rounded-md outline-none
+                    text-f_brown-medium font-medium hover:bg-f_blue-light hover:text-f_brown-medium cursor-pointer">
+                </label>
+
+                <div class="flex justify-between mt-2 text-f_gray-light font-medium">
+                    <div class="hover:text-f_blue-light cursor-pointer">signup</div>
+                    <div class="hover:text-f_blue-light cursor-pointer whitespace-nowrap">forgot password</div>
+                </div>
+
+                <div class="text-center mt-12 my-4 font-medium">
+                    <button id="public" class="py-2 px-4 mt-4 text-f_blue-dark font-bold
+                    bg-f_blue-light rounded-md
+                    hover:text-f_gray-light hover:bg-f_blue-medium">read public journal posts</button>
+
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+    <div class="container flex flex-col justify-center px-12 space-y-4 text-center text-xs text-f_gray-light">
+        <div><p>Journal Now copyright © 2014</p></div>
+
+        <div><p>436 Vista View Rd.</p>
+            <p> San Jose, California</p>
+            <p>Phone: <a href="tel:3548845555"><span class="hover:text-f_blue-light cursor-pointer">354.224.5555</span></a></p>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/app.js"></script>
+
 </body>
 </html>
