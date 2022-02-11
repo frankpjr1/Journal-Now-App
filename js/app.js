@@ -21,7 +21,7 @@ checkIfEmpty(JnEmail.value,"you must enter an email")&&checkIfEmpty(JnPassword.v
 
 
 });
-//checks if inputs are empty
+//checks if inputs are empty or not
 function checkIfEmpty(domInput,errorMessage){
     JnErrorMess.innerHTML = "";
     if (domInput === ""){
