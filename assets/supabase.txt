@@ -1,0 +1,98 @@
+supa base
+=====================================================
+
+
+
+------------------------------------------------------
+
+API: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndxZm96eHZudXhlbHVpcmN4bXV0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDQzNTk3NDcsImV4cCI6MTk1OTkzNTc0N30.aOSMh6WbkCSsYq5UzuGan49G63RrWOdjvKsLHmroHyk
+
+------------------------------------------------------
+URL:
+
+
+https://enrwoevepfskfjilqdba.supabase.co
+
+------------------------------------------------------
+ JWT Secret
+eaf9a75d-8835-4855-8fb7-dda9b06d96a9
+------------------------------------------------------
+postgress 
+PW: 9~z)$ueh,n(dA6~E
+------------------------------------------------------
+
+Service Key:
+eaf9a75d-8835-4855-8fb7-dda9b06d96a9
+
+-----------------------------------------------------
+ANON KEY:
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVucndvZXZlcGZza2ZqaWxxZGJhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDQzNjY5MDAsImV4cCI6MTk1OTk0MjkwMH0.TXLRCwgQJHoOk_d4_UBgYaH-VJ8TkXHKcFdx9-XaaZY
+
+------------------------------------------------------
+
+HOST:
+
+db.enrwoevepfskfjilqdba.supabase.co
+
+-----------------------------------------------------
+
+DATABASE NAME:
+
+postgres
+
+------------------------------------------------------
+
+PORT:
+
+5432
+
+------------------------------------------------------
+copy url:
+?apikey=paste in anon KEY;
+use questionmark to pass new parameters to browser
+
+------------------------------------------------------
+create a variable
+const API_URL = the address
+
+fetch(API_URL)
+
+.then(response =>response.jason())
+.then(data => {
+
+const publicNews =
+
+console.log("============ PUBLIC NEWS ========") 
+data.filter(item.ispublic === true){
+
+publicNews.map(item => console.log(item.content))
+
+
+})
+
+console.log("============ STAFF (all news)========") 
+
+data.map(item => console.log(item.content))
+
+
+------------------------------------------------------
+
+Fetch
+Filter
+then
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

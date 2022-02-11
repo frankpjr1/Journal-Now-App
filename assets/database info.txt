@@ -1,0 +1,21 @@
+Before you start
+three things to
+consider
+
+1. entities
+2. fields associated with entity
+3.relationship that connects them together
+
+ 1.users
+2.merchants
+3.deals
+4.ledger
+
+plus button
+table reference draws relationship between tables
+
+then link to id
+------------------------
+connect dashboard to api
+design data model
+
